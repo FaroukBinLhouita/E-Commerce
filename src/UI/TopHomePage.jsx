@@ -1,4 +1,5 @@
 import React from "react";
+import imageAppleUrl from "../../images/apple.png";
 
 function TopHomePage() {
   return (
@@ -43,12 +44,7 @@ function TopHomePage() {
         {/* Promotional Text and Image */}
         <div className="space-y-4 p-8 animate-slide-in-right">
           <div className="space-y-2 flex gap-6 items-center">
-            <img
-              src="../../images/apple.png"
-              width="40"
-              height="40"
-              alt="iPhone 14"
-            />
+            <img src={imageAppleUrl} width="40" height="40" alt="iPhone 14" />
             <p>iPhone 14 Series</p>
           </div>
           <h1 className="w-72 font-semibold text-[48px] leading-[60px] tracking-[0.04em] text-left">
