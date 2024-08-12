@@ -1,4 +1,7 @@
 import ElmentNewArrival from "./ElmentNewArrival";
+import firstImg from "../../images/playstation.png";
+import secImg from "../../images/3headphone.png";
+import thirdImg from "../../images/Gucci.png";
 
 function NewArrival() {
   return (
@@ -11,7 +14,7 @@ function NewArrival() {
         pargraph={"Black and White version of the PS5 coming out on sale."}
         w="511"
         h="511"
-        src="../../images/playstation.png"
+        src={firstImg}
         top={"32"}
       />
       <div className="grid gap-16 items-baseline">
@@ -20,7 +23,7 @@ function NewArrival() {
           pargraph={"Amazon wireless speakers"}
           w="190"
           h="221"
-          src="../../images/3headphone.png"
+          src={secImg}
         />
 
         <ElmentNewArrival
@@ -28,7 +31,7 @@ function NewArrival() {
           pargraph={"Featured woman collections that give you another vibe."}
           w="201"
           h="203"
-          src="../../images/Gucci.png"
+          src={thirdImg}
         />
       </div>
     </div>

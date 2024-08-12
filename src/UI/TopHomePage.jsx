@@ -1,5 +1,6 @@
 import React from "react";
 import imageAppleUrl from "../../images/apple.png";
+import phoneimage from "../../images/phone.jfif";
 
 function TopHomePage() {
   return (
@@ -73,7 +74,7 @@ function TopHomePage() {
         {/* Promotional Image */}
         <div className="animate-fade-in-up">
           <img
-            src="../../images/phone.jfif"
+            src={phoneimage}
             alt="iPhone Promotion"
             className="w-full object-cover rounded-md"
           />

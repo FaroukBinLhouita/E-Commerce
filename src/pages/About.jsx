@@ -1,6 +1,10 @@
 import FullService from "../UI/FullService";
 import Ourstory from "../UI/Ourstory";
 import Managers from "../UI/managers";
+import imageAbout from "../../images/women-3452067_640.jpg";
+import imageManager1 from "../../images/5afc043392ee3cbb529f429b3e2098d3.png";
+import imageManager2 from "../../images/sec.png";
+import imageManager3 from "../../images/third.png";
 
 function About() {
   return (
@@ -28,7 +32,7 @@ function About() {
         {/* Second Column */}
         <div className="flex justify-center items-center">
           <img
-            src="../../images/women-3452067_640.jpg"
+            src={imageAbout}
             alt="Exclusive Story"
             className="w-[837px] h-[609px] object-cover"
           />
@@ -95,19 +99,19 @@ function About() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 mt-12">
         <Managers
-          img={"5afc043392ee3cbb529f429b3e2098d3.png"}
+          img={imageManager1}
           name={"Tom Cruise"}
           jobTitle={"Founder & Chairman"}
         />
 
         <Managers
-          img={"sec.png"}
+          img={imageManager2}
           name={"Emma Waston"}
           jobTitle={"Managing Director"}
         />
 
         <Managers
-          img={"third.png"}
+          img={imageManager3}
           name={"Will Smith"}
           jobTitle={"Product Designer"}
           imgStyle="object-fill"

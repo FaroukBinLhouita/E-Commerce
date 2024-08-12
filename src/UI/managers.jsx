@@ -3,7 +3,7 @@ function Managers({ img, imgStyle = "object-cover", name, jobTitle }) {
     <div className="p-4">
       <div className="bg-[#F5F5F5] w-[370px] h-[430px] p-[39px] [67px] rounded-[4px] relative">
         <img
-          src={`../../images/${img}`}
+          src={img}
           alt="Description"
           className={`absolute w-[236px] h-[391px] top-[39px] left-[67px] ${imgStyle}`}
         />

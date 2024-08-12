@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Clock from "./Clock";
+import headphoneImg from "../../images/headphone.png";
 
 function Music() {
   const navigate = useNavigate();
@@ -31,7 +32,7 @@ function Music() {
 
       <div>
         <img
-          src="../../images/headphone.png"
+          src={headphoneImg}
           className="self-end w-[400px] h-auto lg:w-[600px] md:mt-20 lg:mt-0 md:ml-10 lg:ml-0"
         />
       </div>
